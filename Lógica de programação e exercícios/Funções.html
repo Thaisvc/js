@@ -1,0 +1,37 @@
+<html>
+  <body>
+    <script>
+      function teste() {
+        //executa quando chamar a funçao
+        console.log("chamando a funcao");
+      }
+      teste(); //chamando a funcao em qualquer parte do codigo
+
+      /////////////////////////////////////////////////////////////////////////////////
+      function teste2(nome, idade) {
+        //nome e idade é um parametro  q sera passsado
+        //executa quando chamar a funçao
+        console.log("o nome passado e " + nome);
+        console.log("o nome idade e " + idade);
+        console.log("-----------------");
+      }
+      teste2("thais"); 
+      teste2("thais", 22);
+
+      ///////////////////////////////////////////////////////////////////////////////////////
+
+      function pegarNome() {
+        return "cunha"; //quando a funçao for chamada ela retorna o valor/ quando chega em retur a funçao acaba
+
+      }
+
+      var pego = pegarNome();
+      console.log(pegarNome);
+
+      
+
+
+
+    </script>
+  </body>
+</html>
